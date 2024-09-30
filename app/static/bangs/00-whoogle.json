@@ -1,14 +1,14 @@
 {
   "!i": {
     "url": "search?q={}&tbm=isch",
-    "suggestion": "!i (Whoogle Images)"
+    "suggestion": "!i (Zarcotech Images)"
   },
   "!v": {
     "url": "search?q={}&tbm=vid",
-    "suggestion": "!v (Whoogle Videos)"
+    "suggestion": "!v (Zarcotech Videos)"
   },
   "!n": {
     "url": "search?q={}&tbm=nws",
-    "suggestion": "!n (Whoogle News)"
+    "suggestion": "!n (Zarcotech News)"
   }
 }
