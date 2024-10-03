@@ -1,4 +1,4 @@
-<html style="background: #000;">
+<html style="background: #0000;">
 <head>
     <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
@@ -76,7 +76,7 @@
                         class="home-search"
                         autofocus="autofocus"
                         autocapitalize="none"
-                        spellcheck="false"
+                        spellcheck="true"
                         autocorrect="off"
                         autocomplete="off"
                         dir="auto">
@@ -193,11 +193,6 @@
                                 {% endfor %}
                             </select>
                         </div>
-                        <!-- DEPRECATED -->
-                        <!--<div class="config-div config-div-dark">-->
-                        <!--<label for="config-dark">{{ translation['config-dark'] }}: </label>-->
-                        <!--<input type="checkbox" name="dark" id="config-dark" {{ 'checked' if config.dark else '' }}>-->
-                        <!--</div>-->
                         <div class="config-div config-div-safe">
                             <label for="config-safe">{{ translation['config-safe'] }}: </label>
                             <input type="checkbox" name="safe" id="config-safe" {{ 'checked' if config.safe else '' }}>
